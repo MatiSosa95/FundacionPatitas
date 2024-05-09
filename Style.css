@@ -41,10 +41,6 @@ nav a:hover{
     text-decoration: underline;
 }
 
-
-/*body*/
-
-
 .divImgPpal{
     display: flex;
 }
@@ -73,6 +69,10 @@ nav a:hover{
     color: aquamarine;
     font-weight: 400;
 }
+
+/*body*/
+
+
 /*Inicio del flex box*/
 .flex-container{
     display: flex;
@@ -80,7 +80,7 @@ nav a:hover{
     background-color: #c78c19;
 }
 
-.flex-container > div{
+.flex-container > section  {
     background-color: #f1f1f1;
     width: 100%;
     margin: 10px;
@@ -89,7 +89,7 @@ nav a:hover{
 }
 /*Imagen dentro del flexbox de donde perros mirando la camara*/
 
-.quienesSomos{
+#quienesSomos{
     background-image: url(dos\ perros\ mirando.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
