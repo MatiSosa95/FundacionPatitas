@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="StyleFormulario.css">
+    <link rel="icon" href="imagenes/icono de pata.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="navegacion container">
+            <img class="logo" src="imagenes/Dog paw-bro.png" alt="Logo ONG">
+            <nav>
+                <ul class="navegacion">
+                    <li><a href="../Home/Home.html">Home</a></li>
+                    <li><a href="">Adopciones</a></li>
+                    <li><a href="../Home/Home.html#quienesSomos?">¿Quienes somos?</a></li>
+                    <li><a href="">Tienda</a></li>
+                    <li><a href="formulario.html">Formulario de Adopción</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" name="" id="nombreapellido" class="input-padron" required>
+
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" name="" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="" id="telefono" class="input-padron" required placeholder="(XX) 15-XXXXXXX">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
+
+            <section>
+                <legend class="test" id="test">¿Cómo le gustaría que lo contactemos?</legend>
+
+                <label for="radioemail"><input type="radio" name="contacto" id="radioemail" value="email">Email</label>
+    
+                <label for="radiotelefono"><input type="radio" name="contacto" id="radiotelefono" value="telefono">Teléfono</label>
+    
+                <label for="radiowapp"><input type="radio" name="contacto" id="radiowapp" value="whatsapp" checked>Whatsapp</label>
+            </section>
+
+            <section>
+                <legend>¿En qué horario prefiere ser atendido?</legend>
+                <select>
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </section>
+
+            <label class="checkbox" for=""><input type="checkbox" name="" id="" checked>¿Le gustaría recibir novedades de la Fundacion Patitas?</label>
+
+            <input class="enviar" type="submit" name="" id="" value="Enviar Formulario">
+        </form> 
+
+    </main>
+
+    <footer>
+        <img class="logo-footer" src="imagenes/Dog paw-bro.png" alt="">
+        <p class="copyright">&copy; Copyright Grupo10 - 2024</p>
+    </footer>
+    
+</body>
+</html>
